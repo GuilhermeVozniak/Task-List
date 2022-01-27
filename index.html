@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+    <title>TASK LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h1 class="titulo">TASK-LIST</h1>
+        <section class="mainFunction">
+            <input type="text" name="task" class="input" placeholder="Task Name" id="taskName">
+            <input type="text" name="Descrition" class="input" placeholder="Short Description" id="taskDescription">
+            <button class="btn" id="add">add</button>
+            <button class="btn" id="deleteAll">Delete All</button>
+        </section>
+
+
+        <table class="table">
+            <tr class="tableLine">
+                <td class="tableData">Name↓</td>
+                <td class="tableData">Description↓</td>
+                <td class="tableData">Done↓</td>
+                <td class="tableData">Delete↓</td>
+            </tr>
+        </table>
+
+
+
+    </main>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
